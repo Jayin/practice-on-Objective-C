@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BD9DEFF61A359722005D2DEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9DEFF51A359722005D2DEA /* main.m */; };
+		BD9DF0001A35983E005D2DEA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9DEFFF1A35983E005D2DEA /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BD9DEFF21A359722005D2DEA /* OCBasic1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = OCBasic1; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD9DEFF51A359722005D2DEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD9DEFFE1A35983E005D2DEA /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		BD9DEFFF1A35983E005D2DEA /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +44,8 @@
 		BD9DEFE91A359722005D2DEA = {
 			isa = PBXGroup;
 			children = (
+				BD9DEFFE1A35983E005D2DEA /* Dog.h */,
+				BD9DEFFF1A35983E005D2DEA /* Dog.m */,
 				BD9DEFF41A359722005D2DEA /* OCBasic1 */,
 				BD9DEFF31A359722005D2DEA /* Products */,
 			);
@@ -118,6 +123,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD9DF0001A35983E005D2DEA /* Dog.m in Sources */,
 				BD9DEFF61A359722005D2DEA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
