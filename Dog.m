@@ -22,4 +22,16 @@
 - (double) getHeight {
     return height;
 }
+
+- (id) setHeight{
+    return self;
+}
+
+//- (void)setSize:(double)newSize{
+//    size = newSize;
+//}
+//
+//- (double)size{
+//    return size;
+//}
 @end

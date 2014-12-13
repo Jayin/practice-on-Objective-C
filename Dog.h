@@ -9,12 +9,19 @@
 #import <Foundation/Foundation.h>
 
 @interface Dog : NSObject{
-     @private int ID;
-     @private double height;
+      int ID;
+      double height;
+    double size;
 }
 
 - (id) init:(int)newID :(int)newHeight;
 
 - (double) getHeight;
 
+- (id) setHeight;
+
+//- (void)setSize:(double)newSize;
+//- (double)size;
+
+@property double size;
 @end

@@ -16,8 +16,14 @@ int main(int argc, const char * argv[]) {
         
     
         Dog * dog = [[Dog alloc] init:1 :20 ];
-        double h = [dog getHeight];
-        printf("height is %f",h);
+//        double h = [dog getHeight];
+        
+        double h = dog.getHeight;
+        
+        dog.size = 2333;
+        double s = dog.size;
+        printf("height is %f \n",h);
+        printf("size is %f \n",s);
         
     }
     return 0;
