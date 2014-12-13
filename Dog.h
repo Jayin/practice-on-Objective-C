@@ -9,9 +9,10 @@
 #import <Foundation/Foundation.h>
 
 @interface Dog : NSObject{
-      int ID;
-      double height;
+    int ID;
+    double height;
     double size;
+    int _age;
 }
 
 - (id) init:(int)newID :(int)newHeight;
@@ -24,4 +25,5 @@
 //- (double)size;
 
 @property double size;
+@property int age;
 @end

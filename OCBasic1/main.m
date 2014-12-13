@@ -16,15 +16,18 @@ int main(int argc, const char * argv[]) {
         
     
         Dog * dog = [[Dog alloc] init:1 :20 ];
-//        double h = [dog getHeight];
+
         
         double h = dog.getHeight;
         
         dog.size = 2333;
         double s = dog.size;
+        
+        dog.age = 21;
+        int age = dog.age;
         NSLog(@"height is %f \n",h);
-//        printf("size is %f \n",s);
         NSLog(@"size is %f\n",s);
+        NSLog(@"age is %d\n",age);
         
     }
     return 0;

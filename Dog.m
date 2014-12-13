@@ -28,6 +28,7 @@
 }
 
 @synthesize size;
+@synthesize age = _age;
 
 //- (void)setSize:(double)newSize{
 //    size = newSize;
