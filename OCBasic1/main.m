@@ -22,8 +22,9 @@ int main(int argc, const char * argv[]) {
         
         dog.size = 2333;
         double s = dog.size;
-        printf("height is %f \n",h);
-        printf("size is %f \n",s);
+        NSLog(@"height is %f \n",h);
+//        printf("size is %f \n",s);
+        NSLog(@"size is %f\n",s);
         
     }
     return 0;

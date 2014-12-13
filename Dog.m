@@ -27,6 +27,8 @@
     return self;
 }
 
+@synthesize size;
+
 //- (void)setSize:(double)newSize{
 //    size = newSize;
 //}
