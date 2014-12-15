@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BD9DEFF61A359722005D2DEA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9DEFF51A359722005D2DEA /* main.m */; };
 		BD9DF0001A35983E005D2DEA /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = BD9DEFFF1A35983E005D2DEA /* Dog.m */; };
+		BDEC5EFB1A3E8A7A0043DC83 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = BDEC5EFA1A3E8A7A0043DC83 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,6 +29,8 @@
 		BD9DEFF51A359722005D2DEA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BD9DEFFE1A35983E005D2DEA /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
 		BD9DEFFF1A35983E005D2DEA /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
+		BDEC5EF91A3E8A7A0043DC83 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		BDEC5EFA1A3E8A7A0043DC83 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +47,8 @@
 		BD9DEFE91A359722005D2DEA = {
 			isa = PBXGroup;
 			children = (
+				BDEC5EF91A3E8A7A0043DC83 /* Person.h */,
+				BDEC5EFA1A3E8A7A0043DC83 /* Person.m */,
 				BD9DEFFE1A35983E005D2DEA /* Dog.h */,
 				BD9DEFFF1A35983E005D2DEA /* Dog.m */,
 				BD9DEFF41A359722005D2DEA /* OCBasic1 */,
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDEC5EFB1A3E8A7A0043DC83 /* Person.m in Sources */,
 				BD9DF0001A35983E005D2DEA /* Dog.m in Sources */,
 				BD9DEFF61A359722005D2DEA /* main.m in Sources */,
 			);
@@ -238,6 +244,7 @@
 				BD9DEFFB1A359722005D2DEA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
