@@ -11,6 +11,15 @@
 #import "Person.h"
 
 
+// Block ~ 相当于匿名函数
+//用typedef 来定义个blocks - Run
+// Useage
+//  Run r = ^(int a,int b){
+//          //you code
+//      return a+b;
+//  }
+typedef int (^Run)(int a ,int b) ;
+
 void test1(){
     NSLog(@"Hello, World!");
     
@@ -39,12 +48,36 @@ void test2(){
     [p sleep];
 }
 
+void block_test(){
+    //要操作局部变量，那么加上__block
+    __block int sum = 0;
+    
+    Run run= ^(int a,int b){
+        sum += a+b;
+        return sum;
+    };
+//    写法2，
+//    int (^run1) (int a,int b) = ^(int a,int b){
+//        sum += a+b;
+//        return sum;
+//    };
+//    run1(1,3);
+
+    
+    NSLog(@"before block");
+    int result = run(1,3);
+    NSLog(@"the result is %d" , result);
+    NSLog(@"the result is %d" , sum);
+
+}
+
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
         
         //        test1();
-        test2();
+//        test2();
+        block_test();
     }
     return 0;
 }
